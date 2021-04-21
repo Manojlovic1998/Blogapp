@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block meta %}
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% endblock %}
+
+    {% block extra_meta %} {% endblock %}
+    {% block core_css %} {% endblock %}
+    {% block extra_css %} {% endblock %}
+
+    {% block extra_js %} {% endblock %}
+    <title>Blog App{% block head_title %} {% endblock %}</title>
+</head>
+<body>
+{% block page_hero %} {% endblock %}
+
+{% block page_content %} {% endblock %}
+
+{% block postload_js %} {% endblock %}
+</body>
+</html>
