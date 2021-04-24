@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
 html,
 body {
     margin: 0;
@@ -21,6 +23,37 @@ ul {
 .main-content {
     flex: 1 0 auto;
 }
+
+/* Navigation */
+
+.navbar-light .navbar-brand {
+    font-family: "Pacifico", serif;
+    font-size: 1.8rem;
+    color: #F31A1A;
+}
+
+.btn-primary {
+    background-color: #F31A1A;
+    border-color: #F31A1A;
+    padding: 0.4rem 2rem;
+    font-weight: bold;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #a51313;
+    border-color: #861818;
+}
+
+.btn-primary:hover {
+    background-color: #a51313;
+    border-color: #861818;
+}
+
+.btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 38, 88, 0.5);
+}
+
+/* Footer */
 .footer-nav {
     width: 100%;
 }
